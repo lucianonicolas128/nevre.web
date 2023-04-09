@@ -77,7 +77,7 @@ export const Footer = () => {
                 onClick={() =>
                   window.open('https://instagram.com/nevre.dev', '_blank')
                 }>
-                <InstagramIcon /> Nevre
+                <InstagramIcon /> Nevre DEV
               </Typography>
               <Typography
                 variant="body1"
