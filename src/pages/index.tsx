@@ -159,7 +159,7 @@ export const ContactSection = () => {
               sx={{
                 borderColor: '#00ff91',
                 mt: 0,
-                backgroundColor: '#000',
+                backgroundColor: '#fff',
                 color: '#00ff91',
                 height: 60,
                 width: '100%',
@@ -487,7 +487,10 @@ export const GestionSection = () => {
                   mt: 2,
                   color: '#00ff91',
                   height: 60,
-                }}>
+                }}
+                onClick={() =>
+                  window.open('https://wa.me/5493435165717', '_blank')
+                }>
                 <Typography sx={{color: '#00ff91'}}>
                   Quiero mi sistema de Gestión!
                 </Typography>
@@ -615,7 +618,10 @@ export const HomeSection = () => {
                     mt: 2,
                     color: '#00ff91',
                     height: 60,
-                  }}>
+                  }}
+                  onClick={() =>
+                    window.open('https://wa.me/5493435165717', '_blank')
+                  }>
                   <Typography sx={{color: '#00ff91'}}>
                     Pedir un presupuesto
                   </Typography>
