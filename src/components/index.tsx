@@ -22,6 +22,7 @@ const HeadApp = (props: any) => {
         name="keywords"
         content="aplicaciones, apps, development, desarrollo, software, software de gestión, software de gestion, aplicaicones web, aplicacion web, desarrollo de aplicaciones web, desarrollo de aplicaciones para telefonos, desarrollo de apps, gestion, gestión, gestion de negocios, gestion de emprendimientos, software de gestión de negocios, software de gestión de emprendimientos, apps para gestion de negocios, apps apra gestión de negocios, apps para gestión de emprendimiento"
       />
+      <meta name="robots" content="follow" />
 
       <link
         rel="icon"
